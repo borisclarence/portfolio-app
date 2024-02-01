@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Dev-pro</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+<style>
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+
+      .ml6 {
+        position: relative;
+        font-weight: 900;
+        font-size: 3.3em;
+      }
+
+      .ml6 .text-wrapper {
+        position: relative;
+        display: inline-block;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
+      }
+
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 1000px;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 600px;
+    }
+  }
+
+  .btn .fa {
+    margin-left: 3px;
+  }
+
+  .top-nav-collapse {
+    background-color: #424f95 !important;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+   }
+  }
+
+  .btn-white {
+    color: black !important;
+  }
+
+  h6 {
+    line-height: 1.7;
+  }
+
+  .rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  }
+
+</style>
+</head>
+
+<body>
+<!-- Main navigation -->
+<header>
+  <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <strong>Dev-Pro</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+          aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Accueil
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">A Propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Prix</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Membres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- Social Icon  -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-facebook-f title"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-twitter title"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fab fa-instagram title"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!-- Full Page Intro -->
+    <div id="home" class="view" style="background-image: url('img/uriel-sc-11KDtiUWRq4-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
+              <h1 class="h1-responsive font-weight-bold mt-sm-5 ml6">
+                <span class="text-wrapper">
+                  <span class="letters">Dev-Pro Agency</span>
+                </span>
+              </h1>
+              <hr class="hr-light">
+              <h6 class="mb-4">Dev-Pro est une agence d'ingénieur informatique motivé par l'envie d'innover et d'apporter un service de qualité à sa clientèle. <br> Besoin d'un site web, n'attendez plus et appelez-nous.</h6>
+              <a class="btn btn-white btn-rounded rounded">Tester nos applications</a>
+              <a class="btn btn-outline-white btn-rounded rounded" href="#about">Plus d'informations</a>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
+              <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt="" class="img-fluid">
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+      </div>
+    </div>
+</header>
+
+  <!--Section: Content-->
+     <div class="container my-5 py-5">
+       <!-- Section: About -->
+       <section id="about" class="about mt-2 mb-5 py-3 wow fadeIn" data-wow-delay="0.2s">
+
+         <h3 class="text-center title my-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+           <strong>A Propos</strong>
+         </h3>
+         <hr class="w-header my-4">
+
+         <!-- Grid row -->
+         <div class="row pt-2 mt-5">
+
+           <!-- Grid column -->
+           <div class="col-lg-5 col-md-12 mb-3 animated wow slideInLeft" data-wow-delay="0.4s">
+             <!-- Image -->
+             <img src="img/scott-graham-5fNmWej4tAA-unsplash.jpg" class="img-fluid z-depth-1 rounded"
+               alt="My photo">
+           </div>
+           <!-- Grid column -->
+
+           <!-- Grid column -->
+           <div class="col-lg-6 ml-auto col-md-12 animated wow slideInRight" data-wow-delay="0.4s">
+
+             <!-- Secion heading -->
+             <h3 class="mb-5 dark-grey-text title font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+               <strong>Quelques mots sur Dev-Pro</strong>
+             </h3>
+
+             <!-- Description -->
+             <p align="justify" class="grey-text">A l’heure où le marché du web devient icontournable,
+               il est nécessaire d’avoir un site internet. Qu'il s'agisse de promouvoir son entreprise sur internet,
+               faire du commerce, proposer des services, il faut être visible sur les moteurs de recherche
+               et savoir convertir les visiteurs.</p>
+
+             <p align="justify" class="grey-text mb-5">Dev-Pro Agency offre des solutions adapté à chaque budget et
+               vous guide pour vous assurer un bon fonctionnement de toutes les étapes nécessaire.
+               De la conception du site internet à son design, en passant par la rédaction de contenu et le référencement internet,
+               nous vous accompagnons tout au long de votre démarche afin de faire de votre projet un véritable succès!</p>
+
+           </div>
+           <!-- Grid column -->
+
+         </div>
+         <!-- Grid row -->
+
+       </section>
+       <!-- Section: About -->
+    <!--Section: Content-->
+
+    <hr>
+
+    <!-- Section: Services v.4 -->
+      <section id="service" class="mt-2 mb-5 pb-4">
+
+        <br>
+        <!-- Section heading -->
+        <h3 class="text-center title my-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+          <strong>Nos Services</strong>
+        </h3>
+        <hr class="w-header my-4">
+
+        <!-- Grid row -->
+        <div class="row features-small wow fadeIn" data-wow-delay="0.4s">
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12">
+            <!-- Grid row -->
+            <div class="row mb-3">
+              <div class="col-2">
+                <i class="fas fa-edit orange-text fa-2x"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="font-weight-bold title">Design Web</h5>
+                <p class="grey-text">Confiez votre Site web à des ingénieurs expérimentés pour un résultant optimal.
+                  Un travail de maintenance sera apporté après la conception.
+                </p>
+              </div>
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row mb-3">
+              <div class="col-2">
+                <i class="fas fa-cogs orange-text fa-2x"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="font-weight-bold title">Refonte de Site</h5>
+                <p class="grey-text">Un travail mal fait ou incomplet nécessite d'apporter des modifications.
+                  Notre équipe ne tardera pas à apporter des solutions pour la mise à jour de vos sites conformément à ce qui se fait de plus moderne.</p>
+              </div>
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-tablet-alt orange-text fa-2x"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="font-weight-bold title">Application Mobile</h5>
+                <p class="grey-text">Nous répondons à vos besoins applicatifs, avec des solutions natives ou Webapp.</p>
+              </div>
+            </div>
+            <!-- Grid row -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-4 col-md-12 mb-1 text-center text-md-left">
+            <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/admin-new.png" alt=""
+              class="z-depth-0 img-fluid">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Third column -->
+          <div class="col-lg-4 col-md-12">
+            <!-- Grid row -->
+            <div class="row mb-3">
+              <div class="col-2">
+                <i class="fas fa-chart-line orange-text fa-2x"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="font-weight-bold title">WordPress website/Référencement</h5>
+                <p class="grey-text">Vous voulez créer une marketplace, un site e-commerce, faire du dropshipping n'hésitez plus et consultez notre équipe.</p>
+              </div>
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row mb-3">
+              <div class="col-2">
+                <i class="fas fa-users orange-text fa-2x"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="font-weight-bold title">Application</h5>
+                <p class="grey-text">Pour toutes vos applications web et desktop nous travaillons avec technologies tels que Symfony, React, Django, Electron.</p>
+              </div>
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="row">
+              <div class="col-2">
+                <i class="far fa-gem orange-text fa-2x"></i>
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="font-weight-bold title">Rigueur</h5>
+                <p class="grey-text">Nous mettons un point d'honneur sur un travail acharné et un suivi de nos clients.
+                </p>
+              </div>
+            </div>
+            <!-- Grid row -->
+          </div>
+          <!-- Third column -->
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!-- Section: Services v.4 -->
+
+  </div>
+
+
+  <section style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20(1).jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+            <iframe id="player" class="embed-responsive-item" src="https://www.youtube.com/embed/7MUISDJ5ZZ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mask rgba-black-strong py-5">
+
+      <div class="container text-center my-5">
+
+        <h3 class="font-weight-bold text-center white-text pb-2">Présentation</h3>
+        <hr class="w-header hr-light my-4">
+        <p class="lead text-center white-text pt-2 mb-5">Nous vous présentons ce que nous vous proposons en quelques mots.</p>
+
+        <a id="play" class="btn-floating btn-cyan btn-lg" data-toggle="modal" data-target="#modal1"><i class="fas fa-play"></i></a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+    <div class="container-fluid light-grey-background" style="background-color:lightgrey">
+      <div class="container py-4 mt-5">
+
+        <!--Section: Content-->
+      <section id="price" class="text-center dark-grey-text" >
+
+        <br><br><br>
+        <!-- Section heading -->
+        <h3 class="font-weight-bold pb-2 mb-4">Nos Prix</h3>
+        <hr class="w-header my-4">
+        <!-- Section description -->
+        <p class="text-muted w-responsive mx-auto mb-5">Nos prix défient toute conccurence, et nos devis sont gratuits.</p>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-12 mb-4">
+
+            <!-- Card -->
+            <div class="card  blue-gradient">
+
+              <!-- Content -->
+              <div class="card-body">
+
+                <!-- Offer -->
+                <h5 class="mb-4">Site</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="card-circle d-flex justify-content-center align-items-center">
+                    <i class="fas fa-sitemap light-blue-text"></i>
+                  </div>
+                </div>
+
+                <!-- Price -->
+                <h2 class="font-weight-bold my-4">2000€</h2>
+                <p class="grey-text text-left">
+                  Installation framework,
+                  Paramétrage CMS,
+                  Intégration graphique,
+                  Adaptation responsive design,
+                  Initialisation du référencement.</p>
+                <a class="btn btn-light-blue btn-rounded">Détails</a>
+
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-12 mb-4">
+
+            <!-- Card -->
+            <div class="card">
+
+              <!-- Content -->
+              <div class="card-body">
+
+                <!-- Offer -->
+                <h5 class="mb-4">Graphisme</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="card-circle d-flex justify-content-center align-items-center">
+                    <i class="fas fa-pencil-alt light-blue-text"></i>
+                  </div>
+                </div>
+
+                <!-- Price -->
+                <h2 class="font-weight-bold my-4">900€</h2>
+                <br>
+                <p class="grey-text text-left">Travail de création effectué à partir d'un brief</p>
+                <p class="grey-text text-left">
+                  Pack vidéo motion design < 2 min</p>
+                <a class="btn btn-light-blue btn-rounded">Détails</a>
+
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <!-- Card -->
+            <div class="card purple-gradient">
+
+              <!-- Content -->
+              <div class="card-body white-text">
+
+                <!-- Offer -->
+                <h5 class="mb-4">Application</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="card-circle d-flex justify-content-center align-items-center">
+                    <i class="fas fa-users"></i>
+                  </div>
+                </div>
+
+                <!--Price -->
+                <h2 class="font-weight-bold my-4">4500€</h2>
+
+                <br>
+                <p class="text-left">
+                  Création d'applications commerce,
+                  de gestion + module,
+                  administration des comptes
+                  maintenance de l'application
+                 </p>
+                <a class="btn btn-outline-white btn-rounded">Détails</a>
+
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-4">
+
+            <!-- Card -->
+            <div class="card">
+
+              <!-- Content -->
+              <div class="card-body">
+
+                <!-- Offer -->
+                <h5 class="mb-4">Web Design</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="card-circle d-flex justify-content-center align-items-center">
+                    <i class="fas fa-tags light-blue-text"></i>
+                  </div>
+                </div>
+
+                <!--Price -->
+                <h2 class="font-weight-bold my-4">4500€</h2>
+                <p class="grey-text">Sur devis avec mention des détails sur les fonctionnalités à ajouter. (Les modules/plugins ne sont pas compris).</p>
+                <a class="btn btn-light-blue btn-rounded">Détails</a>
+
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Card -->
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </section>
+      <!--Section: Content-->
+
+        <br>
+        <br>
+
+        </div>
+    </div>
+
+    <div class="container my-5 py-5">
+
+
+    <section class="p-md-3 mx-md-5 mt-5 text-center text-lg-left" id="team">
+      <br><br>
+    	<h3 class="font-weight-bold text-center pb-2">Notre Equipe</h3>
+      <hr class="w-header my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+          <div class="card">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img
+                src="img/boris.png"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+              <p class="font-weight-bold my-2">Boris Clarence</p>
+              <p class="text-muted">Manageur & Développeur web</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+          <div class="card">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img
+                src="img/marvel.jpg"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+              <p class="font-weight-bold my-2">Marvel Enrique</p>
+              <p class="text-muted">Développeur web</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+          <div class="card">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img
+                src="img/maleo.jpg"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+              <p class="font-weight-bold my-2">Sidney Maleo</p>
+              <p class="text-muted">Développeur mobile</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 d-flex align-items-stretch">
+          <div class="card">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img
+                src="img/ianic.jpg"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+              <p class="font-weight-bold my-2">Ianic Van Kaguer</p>
+              <p class="text-muted">Backend Développeur et web designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+      <hr>
+
+
+  <!--Section: Content-->
+  <section id="contact" class="text-center px-md-5 mx-md-5 dark-grey-text">
+
+    <br><br><br>
+    <!-- Section heading -->
+    <h3 class="font-weight-bold mb-4">Contact</h3>
+    <hr class="w-header my-4">
+    <!-- Section description -->
+    <p class="text-center w-responsive mx-auto mb-5">Contactez-nous ou envoyez un mail sur le formulaire ci-dessous.</p>
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-9 mb-md-0 mb-5">
+
+        <form>
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="contact-name" class="form-control">
+                <label for="contact-name" class="">Entrez votre nom</label>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="contact-email" class="form-control">
+                <label for="contact-email" class="">Entrez votre email</label>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <input type="text" id="contact-Subject" class="form-control">
+                <label for="contact-Subject" class="">Sujet</label>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12">
+              <div class="md-form">
+                <textarea id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+                <label for="contact-message">Votre message</label>
+              </div>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </form>
+
+        <div class="text-center text-md-left">
+          <a class="btn btn-primary btn-md btn-rounded">Envoyer</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 text-center">
+        <ul class="list-unstyled mb-0">
+          <li>
+            <i class="fas fa-map-marker-alt fa-2x blue-text"></i>
+            <p>Paris, P 75011, FR</p>
+          </li>
+          <li>
+            <i class="fas fa-phone fa-2x mt-4 blue-text"></i>
+            <p>+ 07 68 73 25 24</p>
+          </li>
+          <li>
+            <i class="fas fa-envelope fa-2x mt-4 blue-text"></i>
+            <p class="mb-0">dev-proagency@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!--Section: Content-->
+
+
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <!-- Social buttons -->
+        <div class="primary-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">Suivez-nous sur nos pages!</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="fb-ic ml-0" href="https://www.facebook.com/">
+                            <i class="fab fa-facebook white-text mr-4"> </i>
+                        </a>
+                        <!--Twitter-->
+                        <a class="tw-ic" href="https://www.twitter.com/">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin-->
+                        <a class="li-ic" href="https://www.linkedin.com/">
+                            <i class="fab fa-linkedin white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com/">
+                            <i class="fab fa-instagram white-text mr-lg-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- Social buttons -->
+
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Dev-Pro Agency</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Dev-Pro agency reste disponible pour nos clients 24h/24, 7j/7. </p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Services</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Site web</a>
+                    </p>
+                    <p>
+                        <a href="#!">Application web</a>
+                    </p>
+                    <p>
+                        <a href="#!">Application mobile</a>
+                    </p>
+                    <p>
+                        <a href="#!">Web Design/Ui design</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Retrouvez-nous:</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Sur nos locaux</a>
+                    </p>
+                    <p>
+                        <a href="#!">Adresse mail </a>
+                    </p>
+                    <p>
+                        <a href="#!">Contact </a>
+                    </p>
+
+                </div>
+                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home"></i></i> Paris, P 75011, FR</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> dev-proagency@gmail.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 337 68 732224</p>
+
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> Dev-Pro Agency</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Footer -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+      </script>
+    <script  type="text/javascript">
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 500, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+      <script type="text/javascript">
+        $( '#navbarSupportedContent-7 .navbar-nav a' ).on( 'click', function () {
+            $( '#navbarSupportedContent-7 .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+            $( this ).parent( 'li' ).addClass( 'active' );
+        });
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script type="text/javascript">
+      // Wrap every letter in a span
+        var textWrapper = document.querySelector('.ml6 .letters');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({loop: true})
+        .add({
+          targets: '.ml6 .letter',
+          translateY: ["1.1em", 0],
+          translateZ: 0,
+          duration: 750,
+          delay: (el, i) => 50 * i
+        }).add({
+          targets: '.ml6',
+          opacity: 0,
+          duration: 1000,
+          easing: "easeOutExpo",
+          delay: 1000
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Dev-pro</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/mdb.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+<style>
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 1000px;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 600px;
+    }
+  }
+
+  .font-nav {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+  }
+
+  .btn .fa {
+    margin-left: 3px;
+  }
+
+  .top-nav-collapse {
+    background-color: #424f95 !important;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    /* background: transparent !important; */
+    background: #424f95 !important
+  }
+
+  .blue-gradient-local {
+    background: linear-gradient(40deg, #45cafc, #303f9f) !important
+  }
+
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+   }
+  }
+
+  .btn {
+    margin: 0;
+    margin-right: 25px;
+    /* padding: 0; */
+  }
+
+
+
+  .btn-white {
+    color: black !important;
+  }
+
+  h6 {
+    line-height: 1.7;
+  }
+
+  .rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  }
+
+</style>
+</head>
+
+<body>
+
+<!--Main Navigation-->
+    <header>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+            <div class="container">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand font-nav" href="#">
+                    <button type="button" class="btn btn-outline-white">
+                        B.C.E.F
+                    </button>
+                </a>
+
+                
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto smooth-scroll font-nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">01. About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">02. Experience</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#examples">Examples</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">03. Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">04. Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/boris-clarence-541699176/"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/borisclarence"><i class="fab fa-github"></i></a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- Collapsible content -->
+
+            </div>
+
+        </nav>
+        <!--/.Navbar-->
+
+        <!--Mask-->
+        <div id="about" class="view" style="background-image: url('img/uriel-sc-11KDtiUWRq4-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+
+            <div class="mask rgba-gradient">
+
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+                    <div class="row d-flex justify-content-center text-center">
+
+                        <div class="col-md-10">
+
+                            <!-- Heading -->
+                            <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">B.C. ESSONO FOTSO</h2>
+
+                            <!-- Divider -->
+                            <hr class="hr-light">
+
+                            <!-- Description -->
+                            <h4 class="white-text my-4">
+                                I'm a software engineer specializing in building 
+                                (and occasionally designing) exceptional digital experiences.
+                            </h4>
+                            <a href="#experience" class="btn btn-outline-white">
+                                Read more<i class="fa fa-book ml-2"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--/.Mask-->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
+
+            <!--Section: Best Features-->
+            <section id="experience" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">Experience</h2>
+
+                
+
+                <!-- Grid row -->
+            <div class="row pt-2 mt-5">
+
+                <!-- Grid column -->
+                <div class="col-lg-5 col-md-12 mb-3 animated wow slideInLeft" data-wow-delay="0.4s">
+                <!-- Image -->
+                <img src="img/scott-graham-5fNmWej4tAA-unsplash.jpg" class="img-fluid z-depth-1 rounded"
+                    alt="My photo">
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-lg-6 ml-auto col-md-12 animated wow slideInRight" data-wow-delay="0.4s">
+    
+    
+                <!-- Description -->
+                <p align="justify" class="grey-text"> Hello! My name is Boris and I enjoy creating things that live on the internet.
+                    My interest in web development started back in 2014 when I learnt coding at school in about HTML & CSS!
+                .</p>
+    
+                <p align="justify" class="grey-text mb-5">
+                    Fast-forward to today, 
+                    and I’ve had the privilege of working at an digital agency, a start-up, and huge corporation. 
+                    My main focus these days is building accessible,
+                    inclusive products and improving my way of coding to give better when I create applications.
+                </p>
+
+                <p align="justify" class="grey-text mb-5">
+                    To see more about my experience you can on my linkedin <a href="https://www.linkedin.com/in/boris-clarence-541699176/">here</a>
+                </p>
+    
+                </div>
+                <!-- Grid column -->
+    
+            </div>
+            <!-- Grid row -->
+
+            </section>
+            <!--Section: Best Features-->
+
+            <hr class="my-5">
+
+            <!--Section: Examples-->
+            <section id="examples" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">My Work</h2>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <!-- Card -->
+                        <div class="card rgba-blue-slight">
+
+                            <!-- Content -->
+                            <div class="card-body">
+            
+                            <!-- Offer -->
+                            <h5 class="mb-4">E-boof</h5>
+                            <div class="d-flex justify-content-center">
+                                <div class="card-circle d-flex justify-content-center align-items-center">
+                                <i class="fas fa-folder light-blue-text"></i>
+                                </div>
+                            </div>
+            
+                            <p class="grey-text text-left">Show case of my food application app</p>
+                            
+                            <a href="https://ebooff.netlify.app/">Read more</a>
+            
+                            </div>
+                            <!-- Content -->
+            
+                        </div>
+                        <!-- Card -->
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <!-- Card -->
+                        <div class="card rgba-blue-slight">
+
+                            <!-- Content -->
+                            <div class="card-body">
+            
+                            <!-- Offer -->
+                            <h5 class="mb-4">Dev-pro Agency</h5>
+                            <div class="d-flex justify-content-center">
+                                <div class="card-circle d-flex justify-content-center align-items-center">
+                                <i class="fas fa-folder light-blue-text"></i>
+                                </div>
+                            </div>
+            
+                            <p class="grey-text text-left">Website POC for customer</p>
+                            
+                            <a href="https://dev-pro-agency.netlify.app/">Read more</a>
+            
+                            </div>
+                            <!-- Content -->
+            
+                        </div>
+                        <!-- Card -->
+
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <!-- Card -->
+                        <div class="card rgba-blue-slight">
+
+                            <!-- Content -->
+                            <div class="card-body">
+            
+                            <!-- Offer -->
+                            <h5 class="mb-4">Aphro</h5>
+                            <div class="d-flex justify-content-center">
+                                <div class="card-circle d-flex justify-content-center align-items-center">
+                                <i class="fas fa-folder light-blue-text"></i>
+                                </div>
+                            </div>
+            
+                            <p class="grey-text text-left">Website POC for web visiting home</p>
+                            
+                            <a href="https://deployaphro.netlify.app/">Read more</a>
+            
+                            </div>
+                            <!-- Content -->
+            
+                        </div>
+                        <!-- Card -->
+
+                        
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+
+            </section>
+            <!--Section: Examples-->
+
+
+            <hr class="my-5">
+
+            <!--Section: Contact-->
+            <section id="contact">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-5 col-md-12">
+                        <!-- Form contact -->
+                        <form class="p-5 grey-text">
+                            <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form3" class="form-control form-control-sm">
+                                <label for="form3">Your name</label>
+                            </div>
+                            <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form2" class="form-control form-control-sm">
+                                <label for="form2">Your email</label>
+                            </div>
+                            <div class="md-form form-sm"> <i class="fa fa-tag prefix"></i>
+                                <input type="text" id="form32" class="form-control form-control-sm">
+                                <label for="form34">Subject</label>
+                            </div>
+                            <div class="md-form form-sm"> <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+                                <label for="form8">Your message</label>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button class="btn btn-primary">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+                            </div>
+                        </form>
+                        <!-- Form contact -->
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-7 col-md-12">
+
+                        <!--Grid row-->
+                        <div class="row text-center">
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-3">
+
+                                <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Villiers-sur-marne, 94</p>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-3">
+
+                                <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+ 33 768 73 2524</p>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Google map-->
+                        <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Contact-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <!-- Social buttons -->
+        <div class="primary-color">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text">All my social networks are here!</h6>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        
+                        <!--Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin-->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin white-text mr-4"> </i>
+                        </a>
+                        <!--Github-->
+                        <a class="ins-ic">
+                            <i class="fab fa-github white-text mr-lg-4"> </i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+        <!-- Social buttons -->
+
+        <!--Footer Links-->
+        <div class="container mt-5 mb-4 text-center text-md-left">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Summary</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Hey this is the end of my presentation if you want contact me send me an email or follow me on social networks.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Products</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Dev-Pro Agency</a>
+                    </p>
+                    <p>
+                        <a href="#!">E-chap food app</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Useful links</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+                </div> -->
+                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <strong>Contact</strong>
+                    </h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home"></i></i> Villiers-sur-marne</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> borisclarence27@gmail.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 33 7 68 73 25 24</p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            2023 Made By Boris Clarence ESSONO FOTSO
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+      </script>
+    <script  type="text/javascript">
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 500, function(){
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+
+</body>
+</html>
